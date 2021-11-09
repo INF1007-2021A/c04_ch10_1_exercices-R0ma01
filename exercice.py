@@ -75,14 +75,14 @@ def integrande(x):
     return math.exp(-(x**2))
 
 """
-Permets d'évaluer l'intégrale sur l'intervalle donnée en argument
+Permets d'évaluer l'intégrale sur l'interval donnée en argument
 """
 def evaluer_integrale(minim : int, maxim : int):
 
     return integ.quad(integrande,minim, maxim)
 
 """
-Permets d'afficher l'intégrale de la fonction sur l'intervalle donné en argument
+Permets d'afficher l'intégrale de la fonction sur l'interval donné en argument
 """
 def afficher_integrale(minim: int, maxim: int):
     for i in range(minim, maxim):
